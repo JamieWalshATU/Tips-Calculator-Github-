@@ -90,8 +90,8 @@ def process_file(file_path):
                 if "-" in time_range and time_range != "00:00-00:00":
                     if i < 5:  # Monday to Friday (12:00-21:00)
                         worked_hours = calculate_hours_in_range(time_range, "12:00", "21:00")
-                    elif i == 5 or i == 6:  # Saturday and Sunday (10:30-21:00)
-                        worked_hours = calculate_hours_in_range(time_range, "10:30", "21:00")
+                    elif i == 5 or i == 6:  # Saturday and Sunday (12:00-21:00) *
+                        worked_hours = calculate_hours_in_range(time_range, "12:00", "21:00")
                     else:
                         worked_hours = 0
                 else:
