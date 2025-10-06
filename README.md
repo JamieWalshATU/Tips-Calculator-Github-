@@ -1,0 +1,1 @@
+A simple tool built to calculate restaurant tips at my workplace using data exported from our HR scheduling application. Designed to streamline and automate the tip distribution process based on staff rosters, making end-of-day calculations faster and more accurate.
